@@ -1,6 +1,6 @@
 # Bank Management System (Java)
 
-## Overview
+## ♦️Overview
 
 This project is a console-based Bank Management System implemented in Java, demonstrating the concept of Inheritance and Object-Oriented Programming (OOP).
 It allows users to create and manage different types of bank accounts:
@@ -13,7 +13,7 @@ Fixed Deposit Account (with simple interest)
 
 The program is fully menu-driven and accepts user input at runtime using the Scanner class.
 
-🧠 OOP Concepts Used
+## 🧠 OOP Concepts Used
 Inheritance – All account types inherit from a common base class account
 
 Method Reusability – Deposit, withdrawal, and display methods reused
@@ -22,8 +22,8 @@ Encapsulation – Account details handled through class methods
 
 Polymorphism – Different interest calculations for different account types
 
-🏗️ Class Structure
-1️⃣ account (Base Class)
+## 🏗️ Class Structure
+### 1️⃣ account (Base Class)
 Common properties and methods for all accounts.
 
 Data Members:
@@ -44,7 +44,7 @@ withdrawl(double amt) – Withdraws amount
 
 display() – Displays account details
 
-2️⃣ SavingAccount (Derived Class)
+### 2️⃣ SavingAccount (Derived Class)
 Extends account and adds compound interest feature.
 
 Additional Feature:
@@ -55,7 +55,7 @@ Method:
 
 compoundInterest(int time)
 
-3️⃣ CurrentAccount (Derived Class)
+### 3️⃣ CurrentAccount (Derived Class)
 Extends account and includes business account features.
 
 Additional Features:
@@ -76,7 +76,7 @@ minBalance()
 
 simpleInterest(int time)
 
-4️⃣ FixDeposit (Derived Class)
+### 4️⃣ FixDeposit (Derived Class)
 Extends account and handles fixed deposit operations.
 
 Additional Data:
@@ -101,17 +101,17 @@ fd(int time)
 
 Display()
 
-5️⃣ bank (Main Class)
+### 5️⃣ bank (Main Class)
 Contains the main() method and controls program flow using a menu-driven loop.
 
-▶️ How to Run
+## ▶️ How to Run
 Compile the program:
 
 javac bank.java
 Run the program:
 
 java bank
-🧪 Sample Features
+## 🧪 Sample Features
 User can choose account type
 
 Deposit & withdraw money
@@ -124,14 +124,14 @@ Fixed deposit interest calculation
 
 Continuous execution using do-while loop
 
-⚠️ Notes
+## ⚠️ Notes
 This is a console-based academic project
 
 No database or file handling is used
 
 Designed for learning Java inheritance concepts
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 Add file handling or database support
 
 Improve validation (negative amount, invalid input)
@@ -141,4 +141,4 @@ Add login system
 Convert to GUI (JavaFX / Swing)
 
 
-⭐ If you like this project, don’t forget to star the repository!
+## ⭐ If you like this project, don’t forget to star the repository!
